@@ -17,7 +17,7 @@ const Banner = () => {
         <div className="px-10 py-20 text-center lg:text-left lg:px-56 lg:py-10 gap-5 flex flex-col lg:flex-row items-center justify-between lg:gap-28">
             <div className="flex flex-col items-center justify-center text-white lg:items-start">
                 <h1 data-aos="fade-right" className="text-5xl md:text-6xl font-semibold mb-4 leading-normal">
-                    Welcome To <span className="text-green-600">Tech_pupil</span>
+                    Welcome To <span className="text-green-600">CySh@rk</span>
                 </h1>
                 <p data-aos="fade-left" className="text-lg md:text-xl">Introducing Tech Pupil India's leading ed-tech innovator, revolutionizing learning in data science and cybersecurity since 2024. With over 500 students worldwide, our personalized programs redefine education. Join us and discover limitless possibilities in the digital age.</p>
                 <div className="flex mt-8 gap-2">

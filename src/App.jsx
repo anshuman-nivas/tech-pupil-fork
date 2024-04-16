@@ -5,6 +5,7 @@ import Services from "./Components/Services";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer"; 
 import {HashLink} from 'react-router-hash-link';
+import Team from "./Components/Team";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Banner/>
         <About/>
         <Services/>
+        <Team/>
         <Contact/>
         <Footer/>
         
