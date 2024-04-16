@@ -9,7 +9,10 @@ const Footer = () => {
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
                     <div className="mb-4 md:mb-0">
                         <img src={logo} alt="Logo" className="h-16 mb-4" />
-                        <p className="text-[16px] my-4">Cybersecurity welcome to the world of technology thank you for visiting us</p>
+                        <p className="text-[16px] my-4">Empowering innovation in cybersecurity and data science. Join us in shaping the future. </p>
+                        <p className="text-[16px] my-4">
+    <strong>Connect:</strong> techpupil15@gmail.com
+</p>
                     </div>
                     <div>
                         <h2 className="text-[22px] font-semibold text-green-600 py-2 uppercase">Services</h2>
@@ -41,6 +44,14 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className="text-center text-gray-400 mt-8">
+                    <p>&copy; {new Date().getFullYear()} Tech Pupil. All rights reserved.</p>
+                    <p>
+                        <a href="/privacy-policy" className="text-gray-400 hover:text-green-600 transition-all duration-150 ease-in-out">Privacy Policy</a>
+                        {" | "}
+                        <a href="/terms-of-privacy" className="text-gray-400 hover:text-green-600 transition-all duration-150 ease-in-out">Terms of Privacy</a>
+                    </p>
                 </div>
             </footer> 
         </>

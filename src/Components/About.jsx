@@ -1,6 +1,6 @@
 import { FaLinkedin, FaInstagram, FaFacebook, FaTelegram } from 'react-icons/fa';
 import img1 from '../assets/onkar.jpg';
-import img2 from '../assets/gun.jpg';
+import img2 from '../assets/mine.jpg';
 
 const About = () => {
     return (
