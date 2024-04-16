@@ -11,7 +11,7 @@ const About = () => {
                     <h1 data-aos="fade-right" className="text-4xl md:text-5xl font-semibold mb-8 leading-normal uppercase text-green-600">About us</h1>
                 </div>
                 <div className="text-left text-lg lg:text-xl"> {/* Adjusted text size here */}
-                    <p data-aos="fade-left">Founded in January 2024 by Gungun Nilamwar and Onkar Sinha, Tech_pupil is committed to fostering a safer cyber world. Led by CEO Gungun Nilamwar, we offer Cyber Security and data science courses, live sessions, and interactive workshops in schools and colleges. Join us in shaping a secure digital future.</p>
+                    <p data-aos="fade-left">Born from the visionary minds of Onkar Sinha and Gungun Nilamwar in January 2024, Tech_pupil is a beacon of innovation in cybersecurity and data science. More than just a company, we are a community of trailblazers committed to pushing the boundaries of technology.we provide comprehensive cybersecurity solutions and cutting-edge data science courses designed to empower individuals in navigating the complexities of the digital era.Join us on our transformative journey as we shape the future of cybersecurity and data science.</p>
                 </div>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center ">
