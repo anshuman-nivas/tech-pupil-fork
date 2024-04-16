@@ -17,9 +17,9 @@ const Footer = () => {
                     <div>
                         <h2 className="text-[22px] font-semibold text-green-600 py-2 uppercase">Services</h2>
                         <ul className="text-[16px] my-4">
-                            <li className="my-2">Cybersecurity Workshops</li>
-                            <li className="my-2">Datascience Courses</li>
+                            <li className="my-2">Ethical Hacking Workshops</li>
                             <li className="my-2">Cybercrime Awareness</li>
+                            <li className="my-2">Datascience Courses</li>
                             <li className="my-2">Datascience Unpaid Internship</li>
                         </ul>
                     </div>
