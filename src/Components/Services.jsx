@@ -37,7 +37,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="flex justify-center mt-8">
-                <a href="https://your-google-form-link-here" className="text-lg font-semibold text-white bg-green-600 rounded-lg px-6 py-3 b_glow hover:scale-105">Register</a>
+                <a href="https://forms.gle/QKaNaR1mvGEWK7XG7" className="text-lg font-semibold text-white bg-green-600 rounded-lg px-6 py-3 b_glow hover:scale-105">Register</a>
             </div>
         </div>
     );
