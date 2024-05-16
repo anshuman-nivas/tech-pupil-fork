@@ -52,9 +52,15 @@ const Services = () => {
       <div className="flex justify-center mt-8">
         <a
           href="https://cosmofeed.com/vp/66431a92a30cb40013be6fd2"
-          className="text-lg font-semibold text-white bg-green-600 rounded-lg px-6 py-3 b_glow hover:scale-105"
+          className="text-lg font-semibold text-white bg-green-600 rounded-lg px-6 py-3 b_glow hover:scale-105 mr-7" // Added `mr-4` for right margin
         >
           Register For DataScience Internship
+        </a>
+        <a
+          href="https://cosmofeed.com/vp/6644b368215f230013178aa6"
+          className="text-lg font-semibold text-white bg-green-600 rounded-lg px-6 py-3 b_glow hover:scale-105"
+        >
+          Register For Cybersec Internship
         </a>
       </div>
     </div>
