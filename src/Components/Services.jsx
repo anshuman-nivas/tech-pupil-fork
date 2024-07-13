@@ -1,58 +1,52 @@
-import { useState } from "react";
+import { FaShieldAlt, FaSearch, FaBrain, FaBriefcase } from 'react-icons/fa';
+import '../styles/Services.css';
 
 const Services = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
-
   return (
-    <div
-      id="#services"
-      className="p-4 md:p-20 flex flex-col items-center justify-center"
-    >
-      <h1 className="text-3xl md:text-5xl font-semibold mb-6 md:mb-10 leading-normal uppercase text-green-600">
-        Services
-      </h1>
-      <div className="flex flex-col md:flex-row max-w-full md:max-w-4xl">
-        <div
-          className={`text-lg font-semibold text-neutral-200 rounded-lg h-40 w-full md:w-72 border-2 border-green-600 flex items-center justify-center b_glow my-4 md:my-0 mx-4 md:mx-8 px-4 ${
-            hoveredIndex === 0 ? "hover:scale-105" : ""
-          }`}
-          onMouseEnter={() => setHoveredIndex(0)}
-          onMouseLeave={() => setHoveredIndex(null)}
-        >
-          Online/Offline Workshops on Cybersecurity
+    <div id="services" className="container py-5 text-center">
+      <h1 className="display-4 font-semibold mb-5 text-success">Our Services</h1>
+      <div className="row g-4">
+        <div className="col-md-3">
+          <div className="card h-100 text-center bg-dark text-light border-success d-flex flex-column justify-content-center">
+            <div className="card-body d-flex flex-column align-items-center">
+              <FaShieldAlt className="fs-1 icon mb-3" />
+              <h3 className="card-title text-success">Ethical Hacking Workshops</h3>
+              <p className="card-text">Hands-on training in ethical hacking to safeguard digital assets.</p>
+            </div>
+          </div>
         </div>
-        <div
-          className={`text-lg font-semibold text-neutral-200 rounded-lg h-40 w-full md:w-72 border-2 border-green-600 flex items-center justify-center b_glow my-4 md:my-0 mx-4 md:mx-8 px-4 ${
-            hoveredIndex === 1 ? "hover:scale-105" : ""
-          }`}
-          onMouseEnter={() => setHoveredIndex(1)}
-          onMouseLeave={() => setHoveredIndex(null)}
-        >
-          Online/Offline Data Science Workshop
+        <div className="col-md-3">
+          <div className="card h-100 text-center bg-dark text-light border-success d-flex flex-column justify-content-center">
+            <div className="card-body d-flex flex-column align-items-center">
+              <FaSearch className="fs-1 icon mb-3" />
+              <h3 className="card-title text-success">Cybercrime Awareness</h3>
+              <p className="card-text">Educational sessions to raise awareness about cyber threats and safety.</p>
+            </div>
+          </div>
         </div>
-        <div
-          className={`text-lg font-semibold text-neutral-200 rounded-lg h-40 w-full md:w-72 border-2 border-green-600 flex items-center justify-center b_glow my-4 md:my-0 mx-4 md:mx-8 px-4 ${
-            hoveredIndex === 2 ? "hover:scale-105" : ""
-          }`}
-          onMouseEnter={() => setHoveredIndex(2)}
-          onMouseLeave={() => setHoveredIndex(null)}
-        >
-          Ethical Hacking Courses
+        <div className="col-md-3">
+          <div className="card h-100 text-center bg-dark text-light border-success d-flex flex-column justify-content-center">
+            <div className="card-body d-flex flex-column align-items-center">
+              <FaBrain className="fs-1 icon mb-3" />
+              <h3 className="card-title text-success">Data Science Courses</h3>
+              <p className="card-text">Comprehensive courses to master data analysis, machine learning, and more.</p>
+            </div>
+          </div>
         </div>
-        <div
-          className={`text-lg font-semibold text-neutral-200 rounded-lg h-40 w-full md:w-72 border-2 border-green-600 flex items-center justify-center b_glow my-4 md:my-0 mx-4 md:mx-8 px-4 ${
-            hoveredIndex === 3 ? "hover:scale-105" : ""
-          }`}
-          onMouseEnter={() => setHoveredIndex(3)}
-          onMouseLeave={() => setHoveredIndex(null)}
-        >
-          DataScience Course With Unpaid Internship
+        <div className="col-md-3">
+          <div className="card h-100 text-center bg-dark text-light border-success d-flex flex-column justify-content-center">
+            <div className="card-body d-flex flex-column align-items-center">
+              <FaBriefcase className="fs-1 icon mb-3" />
+              <h3 className="card-title text-success">Data Science Internship</h3>
+              <p className="card-text">Real-world experience through our unpaid internship program.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="flex justify-center mt-8">
         <a
           href="https://cosmofeed.com/vp/66431a92a30cb40013be6fd2"
-          className="text-lg font-semibold text-white bg-green-600 rounded-lg px-6 py-3 b_glow hover:scale-105 mr-7" // Added `mr-4` for right margin
+          className="text-lg font-semibold text-white bg-green-600 rounded-lg px-6 py-3 b_glow hover:scale-105 mr-7"
         >
           Register For DataScience Internship
         </a>

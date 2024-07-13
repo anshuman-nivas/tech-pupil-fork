@@ -1,38 +1,37 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
 
 .glow {
-    transition: all 0.3s ese-in-out;
+	transition: all 0.3s ese-in-out;
 }
 .glow:hover {
-    box-shadow: 0 0 25px rgb(206,71, 193 );
+	box-shadow: 0 0 25px rgb(206, 71, 193);
 }
 .img_glow {
-    box-shadow: 0 0 55px rgb(34, 236, 3);
+	box-shadow: 0 0 55px rgb(34, 236, 3);
 }
 .neno-button {
-    transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 .neno-button {
-    box-shadow: 0 0 15px rgb(34, 236, 3);
+	box-shadow: 0 0 15px rgb(34, 236, 3);
 }
-.b_glow { 
-    box-shadow: 0 0 15px rgb(34, 236, 3);
+.b_glow {
+	box-shadow: 0 0 15px rgb(34, 236, 3);
 }
 
 /* Global styles or your component CSS file */
 .team-member img {
-    width: 100%; /* Ensure images take full width of their container */
-    height: auto; /* Maintain aspect ratio */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  }
-  
-  .team-member img:hover {
-    transform: scale(1.1); /* Scale up by 10% on hover */
-  }
+	width: 100%; /* Ensure images take full width of their container */
+	height: auto; /* Maintain aspect ratio */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.team-member img:hover {
+	transform: scale(1.1); /* Scale up by 10% on hover */
+}
 /* Global styles or your component CSS file */
 .box-shadow-green {
-    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.5); /* Adjust values to change the glow effect */
-  }
-    
+	box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.5); /* Adjust values to change the glow effect */
+}

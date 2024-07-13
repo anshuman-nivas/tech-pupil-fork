@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaLinkedin, FaInstagram, FaFacebook, FaTelegram } from 'react-icons/fa';
 import img from '../assets/logo.svg.jpeg'
 import AOS from 'aos';
@@ -22,20 +23,20 @@ const Banner = () => {
                 <p data-aos="fade-left" className="text-lg md:text-xl">Introducing Tech Pupil India's leading ed-tech innovator, revolutionizing learning in data science and cybersecurity since 2024. With over 500 students worldwide, our personalized programs redefine education. Join us and discover limitless possibilities in the digital age.</p>
                 <div className="flex mt-8 gap-2">
                     <a href="https://www.linkedin.com/company/tech-pupil-learning/" className="text-neon-green hover:text-green-500 rounded-full glow p-2">
-                        <FaLinkedin className="text-3xl"/>
+                        <FaLinkedin className="text-3xl" />
                     </a>
                     <a href="https://www.instagram.com/tech_pupil?igsh=MWVodHhrN3pzbDNrcg==" className="text-neon-green hover:text-green-500 rounded-full glow p-2">
-                        <FaInstagram className="text-3xl"/>
+                        <FaInstagram className="text-3xl" />
                     </a>
                     <a href="#" className="text-neon-green hover:text-green-500 rounded-full glow p-2">
-                        <FaFacebook className="text-3xl"/>
+                        <FaFacebook className="text-3xl" />
                     </a>
                     <a href="https://t.me/cyberfreak08" className="text-neon-green hover:text-green-500 rounded-full glow p-2">
-                        <FaTelegram className="text-3xl"/>
+                        <FaTelegram className="text-3xl" />
                     </a>
                 </div>
             </div>
-            <img data-aos="fade-up" src={img} width={290} height={290} className='rounded-full border-2 p-1 border-green-500 img_glow' alt=""/>
+            <img data-aos="fade-up" src={img} width={290} height={290} className='rounded-full border-2 p-1 border-green-500 img_glow' alt="" />
         </div>
     );
 };

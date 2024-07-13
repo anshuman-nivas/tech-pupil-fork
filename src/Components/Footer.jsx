@@ -11,8 +11,8 @@ const Footer = () => {
                         <img src={logo} alt="Logo" className="h-16 mb-4" />
                         <p className="text-[16px] my-4">Empowering innovation in cybersecurity and data science. Join us in shaping the future. </p>
                         <p className="text-[16px] my-4">
-    <strong>Connect:</strong> techpupil15@gmail.com
-</p>
+                            <strong>Connect:</strong> techpupil15@gmail.com
+                        </p>
                     </div>
                     <div>
                         <h2 className="text-[22px] font-semibold text-green-600 py-2 uppercase">Services</h2>
@@ -37,10 +37,10 @@ const Footer = () => {
                                 <FaFacebook className="h-8 hover:glow" />
                             </a>
                             <a href="https://www.instagram.com/tech_pupil?igsh=MWVodHhrN3pzbDNrcg==" className="text-white hover:text-green-600 transition-all duration-150 ease-in-out">
-                                <FaInstagram className="h-8 hover:glow" /> 
+                                <FaInstagram className="h-8 hover:glow" />
                             </a>
-                            <a href= "https://t.me/cyberfreak08" className="text-white hover:text-green-600 transition-all duration-150 ease-in-out">
-                                <FaTelegram  className="h-8 hover:glow" />
+                            <a href="https://t.me/cyberfreak08" className="text-white hover:text-green-600 transition-all duration-150 ease-in-out">
+                                <FaTelegram className="h-8 hover:glow" />
                             </a>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Footer = () => {
                         <a href="/terms-of-privacy" className="text-gray-400 hover:text-green-600 transition-all duration-150 ease-in-out">Terms of Privacy</a>
                     </p>
                 </div>
-            </footer> 
+            </footer>
         </>
     );
 };
