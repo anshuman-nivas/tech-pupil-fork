@@ -8,58 +8,24 @@ const Blog = () => {
   const [error, setError] = useState(null);
   const [visibleCount, setVisibleCount] = useState(3);
 
-<<<<<<< HEAD
-    useEffect(() => {
-        const fetchPosts = async () => {
-            try {
-                const response = await axios.get('https://newsapi.org/v2/everything', {
-                    params: {
-                        q: 'cybersecurity',
-                        language: 'en',
-                        sortBy: 'publishedAt',
-                        apiKey: import.meta.env.VITE_API_KEY
-                    }
-                });
-                const filteredPosts = response.data.articles.filter(
-                    post => post.title && post.description && post.url
-                );
-                setPosts(filteredPosts);
-                setVisiblePosts(filteredPosts.slice(0, visibleCount));
-            } catch (error) {
-                setError('Failed to fetch blogs');
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        fetchPosts();
-    }, [visibleCount]);
-
-    const loadMorePosts = () => {
-        setVisibleCount(prevCount => {
-            const newCount = prevCount + 3;
-            setVisiblePosts(posts.slice(0, newCount));
-            return newCount;
-=======
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get("https://newsapi.org/v2/everything", {
+        const response = await axios.get('https://newsapi.org/v2/everything', {
           params: {
-            q: "cybersecurity",
-            language: "en",
-            sortBy: "publishedAt",
-            apiKey: "6f2f55368ce346fda1a58dd1a959664a",
-          },
->>>>>>> 949e0c7fe6b3c3ef9c470ee474641473a6adfd58
+            q: 'cybersecurity',
+            language: 'en',
+            sortBy: 'publishedAt',
+            apiKey: import.meta.env.VITE_API_KEY
+          }
         });
         const filteredPosts = response.data.articles.filter(
-          (post) => post.title && post.description && post.url
+          post => post.title && post.description && post.url
         );
         setPosts(filteredPosts);
         setVisiblePosts(filteredPosts.slice(0, visibleCount));
       } catch (error) {
-        setError("Failed to fetch blogs");
+        setError('Failed to fetch blogs');
       } finally {
         setLoading(false);
       }
@@ -69,7 +35,7 @@ const Blog = () => {
   }, [visibleCount]);
 
   const loadMorePosts = () => {
-    setVisibleCount((prevCount) => {
+    setVisibleCount(prevCount => {
       const newCount = prevCount + 3;
       setVisiblePosts(posts.slice(0, newCount));
       return newCount;
