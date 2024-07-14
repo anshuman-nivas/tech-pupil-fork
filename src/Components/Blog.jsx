@@ -16,7 +16,7 @@ const Blog = () => {
                         q: 'cybersecurity',
                         language: 'en',
                         sortBy: 'publishedAt',
-                        apiKey: '66101962ec8d4dc0a27fca57c2759683'
+                        apiKey: import.meta.env.VITE_API_KEY
                     }
                 });
                 const filteredPosts = response.data.articles.filter(
