@@ -1,5 +1,5 @@
-import Nav from './Components/Nav/';
-import Banner from './Components/Banner/';
+import Nav from './Components/nav.jsx';
+import Banner from './Components/Banner.jsx';
 import About from './Components/About';
 import Services from './Components/Services';
 import Contact from './Components/Contact';
